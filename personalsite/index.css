@@ -1,0 +1,70 @@
+
+body {
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+/* nesting 
+body #name {
+    font-size: 50px;
+} */
+
+/* this references the main headline of the home page. ONLY block comments */
+#name {
+    color: black;
+    font-size: 50px;    
+    /* top right bottom left (Clockwise) */
+    margin: 30px 30px 30px 30px;
+}
+
+section {
+    margin: 0 30px 30px 30px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-width: 2px;
+    border-color: darkseagreen;
+    border-style: dashed;
+}
+
+ul {
+    margin: 0;
+}
+
+h1, 
+p {
+/* !important sometimes useful but bad practice */
+    color: red;
+    font-weight: 800;
+}
+
+p {
+    margin: 0 30px 30px 30px;
+    color:rebeccapurple;
+}
+
+#portfoliolist li {
+    color: red;
+}
+
+.redheaders {
+    
+}
+
+selector {
+    
+}
+
+.example {
+    min-height: 50px;
+    border-width: 3px;
+    border-style: solid;
+   /* border-color:forestgreen;*/
+}
+
+.example2{
+    border-color:darksalmon;
+}
+
+.form-col {
+    
+}
